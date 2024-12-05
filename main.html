@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Text Overlay Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="swiper gallery-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="text-overlay"></div>
+                    <img src="images1.jpg" alt="Slide 1">
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-overlay"></div>
+                    <img src="images2.jpg" alt="Slide 2">
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-overlay"></div>
+                    <img src="images3.jpg" alt="Slide 3">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        <div class="gallery-controls">
+            <button id="add-text-btn">Add Text</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="text-overlay.js"></script>
+</body>
+</html>
