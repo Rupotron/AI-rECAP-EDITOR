@@ -26,4 +26,4 @@ This project provides an interactive gallery where users can add, customize, and
 
 1. Clone the repository:
    ```bash
-   [git clone https://rupotron.github.io/Dynamic_Gallery_with_Moveable_Text-box ]
+   [git clone https://github.com/Rupotron/Dynamic_Gallery_with_Moveable_Text-box ]
